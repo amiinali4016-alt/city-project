@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{list-style-type: none;}
+a{
+    text-decoration: none;}
+.head {
+  background-color: dodgerblue;
+  padding: 30px 30px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.name-header{
+
+    color: white;
+    font-size: 1.2rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a {
+    color: white;
+}
+.nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1rem;
+}
+.explore{
+    background-color: lightblue;
+    padding: 50px;
+    text-align: center;
+    gap: 20px;
+}
+.h-explore{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+.explore button{
+    padding: 10px;
+    color: rgb(60, 187, 229);
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.explore button:hover{
+    box-shadow: rgba(rgb(8, 4, 4), rgb(8, 9, 8), blue, 0.9);
+    color: white;
+}
