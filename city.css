@@ -6,7 +6,7 @@ ul{list-style-type: none;}
 a{
     text-decoration: none;}
 .head {
-  background-color: dodgerblue;
+  background-color: #0284c7;
   padding: 30px 30px;
   display: flex;
   gap: 50px;
@@ -33,27 +33,26 @@ a{
 }
 .explore{
     background-color: lightblue;
-    padding: 50px;
+    padding: 60px;
     text-align: center;
     gap: 20px;
 }
 .h-explore{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8rem;
+    color: #0284c7;
+    font-family: "comic sans ms";
+    font-weight: 300;
 }
 .explore p{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0284c7;
+    font-family: "comic sans ms";
     padding: 20px;
 }
 .explore button{
     padding: 10px;
-    color: rgb(60, 187, 229);
-    background-color: blueviolet;
-    cursor: pointer;
-}
-.explore button:hover{
-    box-shadow: rgba(rgb(8, 4, 4), rgb(8, 9, 8), blue, 0.9);
     color: white;
+    background-color:#0284c7;
+    cursor: pointer;
+    border: none;
+    font-family: "comic sans ms";
 }
