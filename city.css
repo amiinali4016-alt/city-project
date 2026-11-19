@@ -36,6 +36,7 @@ a{
     padding: 60px;
     text-align: center;
     gap: 20px;
+
 }
 .h-explore{
     font-size: 2.8rem;
@@ -55,6 +56,7 @@ a{
     cursor: pointer;
     border: none;
     font-family: "comic sans ms";
+    border-radius: 10px;
 }
 /*
 body {
@@ -65,10 +67,10 @@ body {
 
 
 .newsletter {
-    background-color: #e3f4fc;
+    background-color: lightblue;
     text-align: center;
     padding: 70px 20px;
-    margin: 30px;
+  
     border-radius: 12px;
 }
 
@@ -106,30 +108,36 @@ body {
 }
 
 footer {
-    background-color: #252f70;
+    background-color: #0f172a;
     color: white;
     padding: 25px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 14px;
+    position: relative;
 }
 
 footer span {
+    background-color: #0f172a;
     border: 1px solid #6672a8;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
 }
 
-/* body {
+.Visit {
     background-color: #e5ebf0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    padding: 20px;
-} */
+    min-height: 70vh;
+    padding: 10px;
+}
 
 .title {
     color: #1d4e6d;
@@ -160,7 +168,7 @@ footer span {
 }
 
 .card-header {
-    background-color: #82b2ce;
+    background-color: lightblue;
     height: 125px;
     display: flex;
     align-items: center;
